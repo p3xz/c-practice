@@ -1,9 +1,15 @@
-//program to ask user to enter his name 
 #include <stdio.h>
 
 int main(void)
 {
+    char name[50];
 
-    string question = get_string("What is your name? ");
-    printf("hello, %s/n" question);
+    printf("Whats your name?\n"); 
+    scanf("%49s", name); 
+
+
+    printf("Hello %s\n", name);
+    return 0;
 }
+
+    
