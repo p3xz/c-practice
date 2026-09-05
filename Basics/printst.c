@@ -2,11 +2,11 @@
 
 int main (void)
 {
-    int a;
+    int age;
     printf("Enter the age: ");
-    scanf("%d", &a);
+    scanf("%d", &age);
 
-    printf("You are  %d " , a);
+    printf("You are %d " , age);
     return 0;
 
 }
