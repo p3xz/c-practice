@@ -34,7 +34,7 @@ This repository contains my C programming practice. It serves as a place to keep
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/c-practice.git
+git clone https://github.com/p3xz/c-practice.git
 ```
 
 Compile any program using GCC:
