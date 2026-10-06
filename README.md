@@ -1,6 +1,9 @@
 # C Practice
 
-A collection of C programming practice programs, experiments, and solutions tracked as I keep learning the language.
+> A collection of C practice programs and solutions tracked as a running record of learning the language for a BCA course.
+
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 <p>
   <a href="https://www.gnu.org/software/gcc/">
@@ -39,9 +42,7 @@ Started in September 2026.
 - **GCC:** the standard free C compiler, available everywhere and the natural way to build plain C programs.
 - **VS Code:** a lightweight editor with good C support for writing and running small programs.
 
-## Practice Topics
-
-All programs currently live in the `Basics` folder and cover:
+## Features
 
 - **Input and output:** `hello.c`, `printst.c`, `question.c` (printf and scanf)
 - **Arithmetic programs:** `avg.c` (average), `si.c` (simple interest), `ctof.c` (Celsius to Fahrenheit), `sqrt.c` (square root)
@@ -50,41 +51,55 @@ All programs currently live in the `Basics` folder and cover:
 - **Loops:** `loop.c`, `fibbonaci.c` (Fibonacci series)
 - **Swapping values:** `swap.c`, `swap2nums.c` (temp variable and arithmetic swap)
 
-New programs and topics are added as learning continues.
+All programs currently live in the `Basics` folder. New programs and topics are added as learning continues.
 
-## Getting Started
+## Quick Start
 
-Clone the repository:
+### Prerequisites
 
-```bash
-git clone https://github.com/p3xz/c-practice.git
-```
+- A C compiler like GCC installed on your machine
 
-Compile any program with GCC:
+### Installation
 
-```bash
-gcc filename.c -o program
-```
+1. Clone the repository:
 
-Run it:
+   ```bash
+   git clone https://github.com/p3xz/c-practice.git
+   ```
 
-On Windows:
+2. Move into the project folder:
 
-```bash
-program.exe
-```
+   ```bash
+   cd c-practice
+   ```
 
-On Linux or macOS:
+3. Compile a program with GCC:
 
-```bash
-./program
-```
+   ```bash
+   gcc Basics/hello.c -o hello
+   ```
 
-Example:
+4. Run it:
+
+   ```bash
+   ./hello
+   ```
+
+   On Windows, run `hello.exe` instead.
+
+## Usage
+
+Compile and run a program in one line:
 
 ```bash
 gcc Basics/hello.c -o hello && ./hello
 ```
+
+On Windows, replace `./hello` with `hello.exe`.
+
+## Contributing
+
+Suggestions and fixes are welcome. Open an issue or a pull request with the program and a short description of what it covers.
 
 ## License
 
