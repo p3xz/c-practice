@@ -2,6 +2,8 @@
 
 > A collection of C practice programs and solutions tracked as a running record of learning the language for a BCA course.
 
+![Preview](preview.png)
+
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
