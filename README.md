@@ -17,11 +17,25 @@ A collection of C programming practice programs, experiments, and solutions trac
   </a>
 </p>
 
+## Why
+
+Practice work for a BCA C programming course, kept as a running record of learning the language one program at a time.
+
+## When
+
+Started in September 2026.
+
 ## Tech Stack
 
 - **Language:** C
 - **Compiler:** GCC
 - **Editor:** Visual Studio Code
+
+## Why This Stack
+
+- **C:** the language being learned in the course, so every program is practice in it.
+- **GCC:** the standard free C compiler, available everywhere and the natural way to build plain C programs.
+- **VS Code:** a lightweight editor with good C support for writing and running small programs.
 
 ## Practice Topics
 
