@@ -27,6 +27,8 @@ Started in September 2026.
 
 ## Tech Stack
 
+![C](https://skillicons.dev/icons?i=c) ![VS Code](https://skillicons.dev/icons?i=vscode)
+
 - **Language:** C
 - **Compiler:** GCC
 - **Editor:** Visual Studio Code
